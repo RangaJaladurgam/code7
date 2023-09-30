@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contest Page | InnVtech</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <style>
+        html{
+            scroll-behavior: smooth;
+        }
+        .gap {
+            gap: 20px
+        }
+        .margin{
+            margin-top: 5rem;
+        }
+        .bg {
+            background-color: rgb(23, 9, 65);
+        }
+        .abtbg {
+            background-color: rgb(11, 4, 31);
+            color: white;
+        }
+
+        .nav-bg {
+            background-color: rgb(131, 9, 184);
+            color: white;
+        }
+
+        .li:active{
+            font-weight: 600;
+        }
+    </style>
+</head>
+
+<body class="bg">
+    <nav class="navbar navbar-expand-lg navbar-dark nav-bg fixed-top">
+        <div class="container col-11 mx-auto">
+            <a class="navbar-brand" href="#">InnVtech</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav m-auto" id="ulTag">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </nav>
+    <div class="container  margin" id="home">
+        <div class="jumbotron jumbotron-fluid rounded-lg">
+            <div class="container">
+                <h1 class="display-4 text-center">Welcome to <b>InnV Contest's</b></h1>
+                <p class="lead text-center"><small>Your gateway to the thrilling world
+                        of coding challenges and competitions. We're here to fuel your passion for coding, sharpen your
+                        skills, and connect you with a global community of tech enthusiasts and problem solvers.</small>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="container row d-flex justify-content-center gap m-auto" id="cardsDisplay">
+    </div>
+    <div class="container-fluid abtbg mt-5 p-5" id="about">
+        <div class="container ">
+            <h2 class="text-center">About Us</h2>
+            <p>We are a team of dedicated coders, tech enthusiasts, and problem-solving aficionados. Our goal is to
+                provide a platform that not only hosts exciting coding contests but also fosters an environment where
+                aspiring developers and seasoned programmers alike can thrive.</p>
+            <p>
+            <h5>What We Offer:</h5>
+            <ul>
+                <li> Coding Challenges: Immerse yourself in a world of challenging problems and puzzles that will put
+                    your
+                    coding skills to the test. Compete against others and see how you stack up in the coding arena.</li>
+                <li> Community: Join a vibrant and supportive community of fellow coders who share your passion.
+                    Collaborate
+                    on projects, exchange knowledge, and learn from one another.</li>
+                <li>Learning Resources: Access a treasure trove of coding resources, tutorials, and coding language
+                    documentation to expand your knowledge and improve your coding prowess.</li>
+                <li> Career Opportunities: Showcase your coding talent to potential employers. Many companies scout our
+                    platform for top talent, and your next career opportunity might just be a contest away.</li>
+            </ul>
+            </p>
+            <h5>Get in Touch:</h5>
+            <p>Questions, feedback, or just want to chat about coding? We'd love to hear from you. Reach out to us. Your input drives our platform's evolution and helps us serve you better.
+
+            Thank you for being part of our dynamic coding community. Together, we're turning coding challenges into
+            opportunities and coding dreams into reality.</p>
+        </div>
+    </div>
+    <footer class="container-fluid nav-bg p-3 d-flex justify-content-center align-items-center">
+        <span class="text-center">Copyright &copy; 2023 | InnVtech</span>
+    </footer>
+
+
+    <!-- scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
